@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Continent" representedClassName="Continent" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="severity" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="CoronaData" representedClassName="CoronaData" syncable="YES" codeGenerationType="class">
+        <attribute name="cases" optional="YES" attributeType="String"/>
+        <attribute name="continentExp" optional="YES" attributeType="String"/>
+        <attribute name="countriesAndTerritories" optional="YES" attributeType="String"/>
+        <attribute name="countryterritoryCode" optional="YES" attributeType="String"/>
+        <attribute name="dateRep" optional="YES" attributeType="String"/>
+        <attribute name="day" optional="YES" attributeType="String"/>
+        <attribute name="deaths" optional="YES" attributeType="String"/>
+        <attribute name="geoId" optional="YES" attributeType="String"/>
+        <attribute name="month" optional="YES" attributeType="String"/>
+        <attribute name="popData2018" optional="YES" attributeType="String"/>
+        <attribute name="year" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Country" representedClassName="Country" syncable="YES" codeGenerationType="class">
+        <attribute name="code" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="region" optional="YES" attributeType="String"/>
+        <attribute name="severity" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="FirstStartup" representedClassName="FirstStartup" syncable="YES" codeGenerationType="class">
+        <attribute name="firstStartup" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="LastRefreshed" representedClassName="LastRefreshed" syncable="YES" codeGenerationType="class">
+        <attribute name="lastRefreshed" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <elements>
+        <element name="Continent" positionX="-63" positionY="63" width="128" height="73"/>
+        <element name="CoronaData" positionX="-63" positionY="-18" width="128" height="208"/>
+        <element name="Country" positionX="-63" positionY="63" width="128" height="103"/>
+        <element name="FirstStartup" positionX="-63" positionY="63" width="128" height="58"/>
+        <element name="LastRefreshed" positionX="-63" positionY="63" width="128" height="58"/>
+    </elements>
+</model>

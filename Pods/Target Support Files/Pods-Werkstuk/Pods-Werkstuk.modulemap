@@ -1,0 +1,6 @@
+framework module Pods_Werkstuk {
+  umbrella header "Pods-Werkstuk-umbrella.h"
+
+  export *
+  module * { export * }
+}
